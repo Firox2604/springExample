@@ -32,9 +32,9 @@ public class Zad2SpringbootApplication implements CommandLineRunner {
     @Override
     public void run(String... args)throws Exception{
         //emailSender.sendEmail("kirosithera@gmail.com","test","witam");
-        logger.info("afs");
-        logger.info(userService.findByLoginAndLastname("kowal","kowalski").toString());
-        System.out.println(userService.findByLoginAndLastname("kowal","kowalski").toString());
+//        logger.info("afs");
+//        logger.info(userService.findByLoginAndLastname("kowal","kowalski").toString());
+//        System.out.println(userService.findByLoginAndLastname("kowal","kowalski").toString());
 
     }
 }
